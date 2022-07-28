@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="finddonor.css">  
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find donor</title>
+
+</head>
+<body>
+    <div class="header"><p>Request Blood</p></div>
+
+    <form class="login"> 
+        <input type="text" placeholder="Enter your Name" name="name" required>
+        <select name="bt" id="question">
+            <option selection disabled>Select your blood group:</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+        <select name="gender" id="question" required>
+            <option value="0">Select your gender:</option>
+            <option value="M">M</option>
+            <option value="F">F</option>
+        </select>
+        <input type="text" placeholder="Enter your contact number" name="contact" required>
+        <button  name = "finddonor" type="submit" style="color: yellow;">Find Now</button>
+    </form>
+</body>
+</html>

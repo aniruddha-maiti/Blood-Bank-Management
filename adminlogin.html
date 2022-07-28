@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">  
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Log-In</title>
+
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: linear-gradient(45deg, #8b41d0 0%, #5cdd92 46%, #e27d3a 100%);
+            z-index: 1;
+        }
+
+        .header{
+          padding: 10px;
+          width: auto;
+          color: #ffffff;
+          z-index: 2;
+          box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+      }
+      .header p{
+        text-align: center;
+        text-shadow: 0px 4px 4px black;
+        font-size: 50px;
+        font-family: Cambria;
+        z-index: 3;
+
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="header"><p>Admin Login</p></div>
+
+    <div class="con">
+        <form class="login"> 
+            <input name="contact" type="text" placeholder="Conatct Number" required>
+            <input name="password" type="password" placeholder="Admin Password" required>
+            <button name="login" type="submit">Log-In</button>
+        </form>
+    </div>
+</body>
+</html>
